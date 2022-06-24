@@ -10,7 +10,7 @@ I am an amateur developer and RPG enthusiast.
   Github
 </a>
 <br>
-<a href="mailto: element.re.dev@gmail.com">
+<a href="mailto:element.re.dev@gmail.com">
   <i class="fa-solid fa-envelope"></i>
   Email
 </a>
