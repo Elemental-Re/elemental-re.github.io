@@ -1,6 +1,6 @@
 title: "Blog"
 author: "element_re"
-description: "Ramblings an amateur developer"
+description: "Ramblings an amateur Foundry VTT package developer"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -11,7 +11,7 @@ date_format: "%B %d, %Y"
 show_excerpts: true        # show article excerpts on the home page
 show_frame: true           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
-minimal: true              # use a dark header
+minimal: false             # use a dark header
 
 # Menu
 
@@ -20,8 +20,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Github, icon: github, url: "https://github.com/Elemental-Re/contrast"}
+#   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
