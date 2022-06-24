@@ -1,6 +1,6 @@
 title: "Blog"
 author: "element_re"
-description: "Ramblings an amateur Foundry VTT package developer"
+description: "Ramblings of an amateur developer"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -21,6 +21,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Github, icon: github, url: "https://github.com/Elemental-Re"}
+  - {title: Email, icon: email, url: "mailto: element.re.dev@gmail.com"}
 #   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
