@@ -8,7 +8,7 @@ layout: page
 I am an amateur developer and RPG enthusiast.
 
 <a href="https://github.com/Elemental-Re">
-  <svg aria-label="Github" class="icon"><use xlink:href="/assets/fontawesome/icons.svg#github"></use></svg>
+  <i class="fa-brands fa-github"></i>
   Github
 </a>
 
