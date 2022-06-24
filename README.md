@@ -3,7 +3,7 @@ title: "About"
 permalink: "/about/"
 layout: page
 ---
-I am an amateur developer and RPG enthusiast.
+I am a Foundry VTT package developer and RPG enthusiast.
 
 <a href="https://github.com/Elemental-Re">
   <i class="fa-brands fa-github"></i>
