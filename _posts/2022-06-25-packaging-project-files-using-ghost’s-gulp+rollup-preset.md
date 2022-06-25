@@ -143,7 +143,7 @@ const files = [...staticFiles, ...projectFiles, 'module'];
 
 ### watch
 
-The last thing I noticed was that changes to `README.md` and `CHANGELOG.md` were not triggering a new build when running `npm build:watch`. Arguably, there was no real need to fix this, it’s not like I expected to edit them regularly during the build process, but I had come this far, so I figured I might well go all the way. In order to resolve this I had to register the files under the `watch` method. This is what it looked like initially:
+The last thing I noticed was that changes to `README.md` and `CHANGELOG.md` were not triggering a new build when running `npm build:watch`. Arguably, there was no real need to fix this, it’s not like I expected to edit them regularly during the development process, but I had come this far, so I figured I might well go all the way. In order to resolve this I had to register the files under the `watch` method. This is what it looked like initially:
 
 ```jsx
 function watch() {
