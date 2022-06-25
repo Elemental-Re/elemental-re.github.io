@@ -44,7 +44,7 @@ I was curious as to how these methods were being called as part of the build pro
 
 ```jsx
 module.exports = {
-	watch,
+  watch,
 	build,
 	clean,
 	link,
@@ -183,10 +183,13 @@ This was probably the file that defined the workflow. I couldn’t see the conte
 
 ```yaml
 - jobs:
-	- build:
-		- steps:
-			- name: Build
-			  run: npm run build
+  ...
+  - build:
+    ...
+    - steps:
+      ...
+      - name: Build
+        run: npm run build
 ```
 
 This was exactly what I ran to build the project and should be calling the gulp tasks that I modified, so it was reasonable to assume that my changes should be picked up as part of GitHub’s build process.
