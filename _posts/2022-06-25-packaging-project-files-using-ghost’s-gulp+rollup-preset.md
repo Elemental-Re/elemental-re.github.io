@@ -183,11 +183,8 @@ This was probably the file that defined the workflow. I couldn’t see the conte
 
 ```yaml
 - jobs:
-	...
 	- build:
-		...
 		- steps:
-			...
 			- name: Build
 			  run: npm run build
 ```
