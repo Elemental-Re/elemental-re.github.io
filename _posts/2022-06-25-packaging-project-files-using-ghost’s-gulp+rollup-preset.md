@@ -45,9 +45,9 @@ I was curious as to how these methods were being called as part of the build pro
 ```jsx
 module.exports = {
   watch,
-	build,
-	clean,
-	link,
+  build,
+  clean,
+  link,
 };
 ```
 
@@ -55,12 +55,12 @@ These exports were then referenced in `package.json`, which was what defines the
 
 ```jsx
 "scripts": {
-	"build": "gulp build",
-	"build:watch": "gulp watch",
-	"link-project": "gulp link",
-	"clean": "gulp clean",
-	"clean:link": "gulp link --clean",
-	...
+  "build": "gulp build",
+  "build:watch": "gulp watch",
+  "link-project": "gulp link",
+  "clean": "gulp clean",
+  "clean:link": "gulp link --clean",
+  ...
 },
 ```
 
